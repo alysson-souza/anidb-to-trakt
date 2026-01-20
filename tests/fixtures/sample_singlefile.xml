@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<my_anime_list>
+    <!-- Anime entries -->
+    <anime>
+        <AnimeID>11061</AnimeID>
+        <Name>Shingeki no Kyojin</Name>
+        <NameEnglish>Attack on Titan</NameEnglish>
+        <TypeID>2</TypeID>
+        <Eps>25</Eps>
+        <EpsSpecial>5</EpsSpecial>
+        <Hentai>0</Hentai>
+        <MyVote>9</MyVote>
+        <MyVoteDate>15.04.2023 20:30</MyVoteDate>
+    </anime>
+
+    <anime>
+        <AnimeID>10083</AnimeID>
+        <Name>Kimi no Na wa.</Name>
+        <NameEnglish>Your Name.</NameEnglish>
+        <TypeID>4</TypeID>
+        <Eps>1</Eps>
+        <EpsSpecial>0</EpsSpecial>
+        <Hentai>0</Hentai>
+        <MyVote>10</MyVote>
+        <MyVoteDate>20.05.2022 12:00</MyVoteDate>
+    </anime>
+
+    <anime>
+        <AnimeID>4563</AnimeID>
+        <Name>Death Note</Name>
+        <NameEnglish>Death Note</NameEnglish>
+        <TypeID>2</TypeID>
+        <Eps>37</Eps>
+        <EpsSpecial>2</EpsSpecial>
+        <Hentai>0</Hentai>
+        <MyTempVote>8</MyTempVote>
+        <MyTempVoteDate>10.03.2023</MyTempVoteDate>
+    </anime>
+
+    <anime>
+        <AnimeID>99999</AnimeID>
+        <Name>Test Restricted</Name>
+        <NameEnglish>Test Restricted</NameEnglish>
+        <TypeID>3</TypeID>
+        <Eps>2</Eps>
+        <EpsSpecial>0</EpsSpecial>
+        <Hentai>1</Hentai>
+        <MyVote>5</MyVote>
+        <MyVoteDate>01.01.2023</MyVoteDate>
+    </anime>
+
+    <!-- Episode entries (EpID -> AnimeID, EpNo mapping) -->
+    <episode>
+        <EpID>1001</EpID>
+        <AnimeID>11061</AnimeID>
+        <EpNo>1</EpNo>
+    </episode>
+    <episode>
+        <EpID>1002</EpID>
+        <AnimeID>11061</AnimeID>
+        <EpNo>2</EpNo>
+    </episode>
+    <episode>
+        <EpID>1003</EpID>
+        <AnimeID>11061</AnimeID>
+        <EpNo>S1</EpNo>
+    </episode>
+    <episode>
+        <EpID>2001</EpID>
+        <AnimeID>10083</AnimeID>
+        <EpNo>1</EpNo>
+    </episode>
+    <episode>
+        <EpID>3001</EpID>
+        <AnimeID>4563</AnimeID>
+        <EpNo>1</EpNo>
+    </episode>
+    <episode>
+        <EpID>3002</EpID>
+        <AnimeID>4563</AnimeID>
+        <EpNo>2</EpNo>
+    </episode>
+    <episode>
+        <EpID>9001</EpID>
+        <AnimeID>99999</AnimeID>
+        <EpNo>1</EpNo>
+    </episode>
+
+    <!-- File entries (watched files with ViewDate) -->
+    <file>
+        <FileID>100001</FileID>
+        <AnimeID>11061</AnimeID>
+        <EpID>1001</EpID>
+        <MyWatched>1</MyWatched>
+        <ViewDate>01.04.2023 18:00</ViewDate>
+    </file>
+    <file>
+        <FileID>100002</FileID>
+        <AnimeID>11061</AnimeID>
+        <EpID>1002</EpID>
+        <MyWatched>1</MyWatched>
+        <ViewDate>02.04.2023 18:00</ViewDate>
+    </file>
+    <file>
+        <FileID>100003</FileID>
+        <AnimeID>11061</AnimeID>
+        <EpID>1003</EpID>
+        <MyWatched>1</MyWatched>
+        <ViewDate>16.04.2023 14:00</ViewDate>
+    </file>
+    <file>
+        <FileID>200001</FileID>
+        <AnimeID>10083</AnimeID>
+        <EpID>2001</EpID>
+        <MyWatched>1</MyWatched>
+        <ViewDate>20.05.2022 10:00</ViewDate>
+    </file>
+    <file>
+        <FileID>300001</FileID>
+        <AnimeID>4563</AnimeID>
+        <EpID>3001</EpID>
+        <MyWatched>1</MyWatched>
+        <ViewDate>01.03.2023</ViewDate>
+    </file>
+    <file>
+        <FileID>300002</FileID>
+        <AnimeID>4563</AnimeID>
+        <EpID>3002</EpID>
+        <MyWatched>1</MyWatched>
+        <ViewDate>02.03.2023</ViewDate>
+    </file>
+    <!-- Multi-file for same episode (test earliest date) -->
+    <file>
+        <FileID>300003</FileID>
+        <AnimeID>4563</AnimeID>
+        <EpID>3001</EpID>
+        <MyWatched>1</MyWatched>
+        <ViewDate>15.02.2023</ViewDate>
+    </file>
+    <file>
+        <FileID>900001</FileID>
+        <AnimeID>99999</AnimeID>
+        <EpID>9001</EpID>
+        <MyWatched>1</MyWatched>
+    </file>
+    <!-- Unwatched file (should be ignored) -->
+    <file>
+        <FileID>999999</FileID>
+        <AnimeID>11061</AnimeID>
+        <EpID>1001</EpID>
+        <MyWatched>0</MyWatched>
+    </file>
+</my_anime_list>

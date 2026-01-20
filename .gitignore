@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Output files
+output/
+
+# Data files (but not test fixtures)
+/data/*.json
+/*.tgz
+/mylist.xml
+/changelog.txt
+
+# Sensitive files
+.env
+tokens.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+data/anime_ids.json
+.claude/settings.local.json
+plan.md

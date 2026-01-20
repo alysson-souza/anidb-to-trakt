@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyList>
+    <!-- Fully watched TV series with rating -->
+    <Anime>
+        <AnimeID>11061</AnimeID>
+        <Name>Shingeki no Kyojin</Name>
+        <NameEnglish>Attack on Titan</NameEnglish>
+        <Type>2</Type>
+        <EpisodeCount>25</EpisodeCount>
+        <SpecialCount>5</SpecialCount>
+        <IsRestricted>0</IsRestricted>
+        <MyVote>9</MyVote>
+        <MyVoteDate>15.04.2023 20:30</MyVoteDate>
+        <Episodes>
+            <Episode>
+                <EpNo>1</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>01.04.2023 18:00</ViewDate>
+            </Episode>
+            <Episode>
+                <EpNo>2</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>02.04.2023 18:00</ViewDate>
+            </Episode>
+            <Episode>
+                <EpNo>S1</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>16.04.2023 14:00</ViewDate>
+            </Episode>
+        </Episodes>
+    </Anime>
+
+    <!-- Movie with rating -->
+    <Anime>
+        <AnimeID>10083</AnimeID>
+        <Name>Kimi no Na wa.</Name>
+        <NameEnglish>Your Name.</NameEnglish>
+        <Type>4</Type>
+        <EpisodeCount>1</EpisodeCount>
+        <SpecialCount>0</SpecialCount>
+        <IsRestricted>0</IsRestricted>
+        <MyVote>10</MyVote>
+        <MyVoteDate>20.05.2022 12:00</MyVoteDate>
+        <Episodes>
+            <Episode>
+                <EpNo>1</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>20.05.2022 10:00</ViewDate>
+            </Episode>
+        </Episodes>
+    </Anime>
+
+    <!-- Partially watched series with temp vote -->
+    <Anime>
+        <AnimeID>4563</AnimeID>
+        <Name>Death Note</Name>
+        <NameEnglish>Death Note</NameEnglish>
+        <Type>2</Type>
+        <EpisodeCount>37</EpisodeCount>
+        <SpecialCount>2</SpecialCount>
+        <IsRestricted>0</IsRestricted>
+        <MyTempVote>8</MyTempVote>
+        <MyTempVoteDate>10.03.2023</MyTempVoteDate>
+        <Episodes>
+            <Episode>
+                <EpNo>1</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>01.03.2023</ViewDate>
+            </Episode>
+            <Episode>
+                <EpNo>2</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>02.03.2023</ViewDate>
+            </Episode>
+            <Episode>
+                <EpNo>3</EpNo>
+                <MyEpWatched>0</MyEpWatched>
+            </Episode>
+        </Episodes>
+    </Anime>
+
+    <!-- OVA with no rating, only watched status -->
+    <Anime>
+        <AnimeID>1530</AnimeID>
+        <Name>FLCL</Name>
+        <NameEnglish>FLCL</NameEnglish>
+        <Type>3</Type>
+        <EpisodeCount>6</EpisodeCount>
+        <SpecialCount>1</SpecialCount>
+        <IsRestricted>0</IsRestricted>
+        <Episodes>
+            <Episode>
+                <EpNo>1</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>15.01.2024 20:00</ViewDate>
+            </Episode>
+            <Episode>
+                <EpNo>2</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>16.01.2024 20:00</ViewDate>
+            </Episode>
+            <Episode>
+                <EpNo>3</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <ViewDate>17.01.2024 20:00</ViewDate>
+            </Episode>
+        </Episodes>
+    </Anime>
+
+    <!-- Restricted content (hentai) -->
+    <Anime>
+        <AnimeID>99999</AnimeID>
+        <Name>Test Restricted</Name>
+        <NameEnglish>Test Restricted</NameEnglish>
+        <Type>3</Type>
+        <EpisodeCount>2</EpisodeCount>
+        <SpecialCount>0</SpecialCount>
+        <IsRestricted>1</IsRestricted>
+        <MyVote>5</MyVote>
+        <MyVoteDate>01.01.2023</MyVoteDate>
+        <Episodes>
+            <Episode>
+                <EpNo>1</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+            </Episode>
+        </Episodes>
+    </Anime>
+
+    <!-- Entry with no watched episodes (in list but not watched) -->
+    <Anime>
+        <AnimeID>88888</AnimeID>
+        <Name>Plan to Watch</Name>
+        <NameEnglish>Plan to Watch</NameEnglish>
+        <Type>2</Type>
+        <EpisodeCount>12</EpisodeCount>
+        <SpecialCount>0</SpecialCount>
+        <IsRestricted>0</IsRestricted>
+        <Episodes>
+            <Episode>
+                <EpNo>1</EpNo>
+                <MyEpWatched>0</MyEpWatched>
+            </Episode>
+        </Episodes>
+    </Anime>
+
+    <!-- Multi-file episode (same episode, multiple files with different dates) -->
+    <Anime>
+        <AnimeID>77777</AnimeID>
+        <Name>Multi File Test</Name>
+        <NameEnglish>Multi File Test</NameEnglish>
+        <Type>2</Type>
+        <EpisodeCount>1</EpisodeCount>
+        <SpecialCount>0</SpecialCount>
+        <IsRestricted>0</IsRestricted>
+        <MyVote>7</MyVote>
+        <MyVoteDate>01.06.2023</MyVoteDate>
+        <Episodes>
+            <Episode>
+                <EpNo>1</EpNo>
+                <MyEpWatched>1</MyEpWatched>
+                <Files>
+                    <File>
+                        <ViewDate>10.06.2023 20:00</ViewDate>
+                    </File>
+                    <File>
+                        <ViewDate>05.06.2023 18:00</ViewDate>
+                    </File>
+                </Files>
+            </Episode>
+        </Episodes>
+    </Anime>
+</MyList>
